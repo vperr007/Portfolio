@@ -1,17 +1,16 @@
+
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Chonburi|Luckiest+Guy" rel="stylesheet">
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
-  <link src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
-<script src="jquery.fittext.js"></script>
-<script>
-  jQuery("#responsive_headline").fitText();
-</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Bree+Serif|Coda+Caption:800|Passion+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" >
+
+
+<link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
+  <header>
   <nav>
     <ul>
       <li>HOME</li>
@@ -20,34 +19,40 @@
       <li><a href='http://www.codewithher.com/'>BLOG</a></li>
     </ul>
   </nav>
-  <header>
+  <div class='parent'>
     <div class='img-responsive' id='city-background'>
-  <div id='title'>Hello!<br>I'm Victoria</div>
+  <h1>Hello!</br> I'm <span>Victoria</span></h1>
     <hr class="style11">
     <!--Create white bar-->
-    <p id='title-description'>Front End Developer</p>
-</header>
-  
+    <h3 class='front-end'>Front End Developer</h3>
+      </div>
+    </div>
+  </header>
+
+
 <div id='portfolio'>
-  <h1>PORTFOLIO</h1>
-    <div class='flex-container'>
-  
-  <div class="flex-item"><a href='http://codepen.io/vperr007/full/dXNKYr/'><img src='https://c1.staticflickr.com/1/775/32739975585_d3ec5ec394_z.jpg' class='portfolio-image img-responsive'></a></div>
-      <div class="flex-item"><a href='http://codepen.io/vperr007/full/WRgQGj/'><img src='https://c1.staticflickr.com/1/285/32770109315_ee82bc4b7d_z.jpg' class='portfolio-image img-responsive'></a></div>
-      <div class="flex-item"><a href='http://codepen.io/vperr007/full/vKvkYp/'><img src='https://c1.staticflickr.com/1/407/32770270455_45414d232f_z.jpg' class='portfolio-image img-responsive'></a></div>
-      <div class="flex-item"><a href='http://www.codewithher.com/'><img src='https://c1.staticflickr.com/1/704/31956554613_d38092275f_z.jpg' class='portfolio-image img-responsive'></a></div>
-      <!--
+  <h2 class='sub-header'>PORTFOLIO</h2>
+    <div class='flex-grid'>
+
+  <div class="col " name='jacks'><a href='https://vperr007.github.io/JacksCoffeeShop/'><img src='https://c1.staticflickr.com/3/2879/33930043970_9d95739e69.jpg' class='portfolio-image img-responsive'></a></div>
+      <div class="col "><a href='http://goatdesigns.us'><img src='https://c1.staticflickr.com/1/285/32770109315_ee82bc4b7d_z.jpg' class='portfolio-image img-responsive'></a></div>
+      <div class="col " name='weather'><a href='http://globalforecast.net'><img src='https://c1.staticflickr.com/3/2856/34175055051_736e41f9c0.jpg' class='portfolio-image img-responsive'></a></div>
+      <div class="col " name='codewithher'><a href='http://www.codewithher.com/'><img src='https://c1.staticflickr.com/3/2872/34284358316_064c786183.jpg' class='portfolio-image img-responsive'></a></div>
+
+      <div class="col " name='hellos'><a href='https://vperr007.github.io/Hellos/'><img src='https://c1.staticflickr.com/3/2865/34167136992_829f762a81.jpg'  class='portfolio-image img-responsive'></a></div>
+     <!-- <div class="flex-item"><img src='https://c1.staticflickr.com/1/531/32426448995_f2112d8668_z.jpg' class='portfolio-image img-responsive'></div>
       <div class="flex-item"><img src='https://c1.staticflickr.com/1/531/32426448995_f2112d8668_z.jpg' class='portfolio-image img-responsive'></div>
+
       <div class="flex-item"><img src='https://c1.staticflickr.com/1/531/32426448995_f2112d8668_z.jpg' class='portfolio-image img-responsive'></div>
-      <div class="flex-item"><img src='https://c1.staticflickr.com/1/531/32426448995_f2112d8668_z.jpg' class='portfolio-image img-responsive'></div>
-      
-      <div class="flex-item"><img src='https://c1.staticflickr.com/1/531/32426448995_f2112d8668_z.jpg' class='portfolio-image img-responsive'></div>
-    -->
+
+    </div>-->
     </div>
-    </div>
-  
+
     <div id='contact'>
-    <h1>CONTACT</h1>
-      <p class='explainers'> vperdesigns@gmail.com</p>
+    <h2 class='sub-header'>CONTACT</h2>
+      <p class='email'> vperdesigns@gmail.com</p>
     </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+   <script src="https://use.fontawesome.com/43f8a9f50f.js"></script>
+   <script src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 </body>
